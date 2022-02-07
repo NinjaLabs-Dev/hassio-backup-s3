@@ -5,7 +5,7 @@ ENV LANG C.UTF-8
 
 # add aws-cli and deps
 RUN apk -v --update add \
-        python \
+        python3 \
         py-pip \
         groff \
         less \
