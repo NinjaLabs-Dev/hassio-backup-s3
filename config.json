@@ -6,13 +6,15 @@
   "startup": "before",
   "boot": "auto",
   "options": {
-    "awskey": "",
-    "awssecret": "",
+    "s3key": "",
+    "s3secret": "",
+    "s3region": "",
     "bucketname": ""
   },
   "schema": {
-    "awskey": "str",
-    "awssecret": "str",
+    "s3key": "str",
+    "s3secret": "str",
+    "s3region": "str",
     "bucketname": "str"
   },
   "map": ["backup:rw"]
